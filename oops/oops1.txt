@@ -1,0 +1,36 @@
+
+int value;
+value = 10;
+
+class Student{
+
+	int studentId;
+	String name;
+	int mark[] = new int[3];
+	int total ;
+	String result;
+	static int MIN_MARK;
+	static int MAx_MARK;
+	static int PASS_MARK;
+
+	
+}
+
+1. data members
+		static data memeber
+		non static dta member
+
+2. member functions
+
+
+Student student1 = new Student();
+Student student2 = new Student();
+
+Student.PASS_MARK = 50;
+student1.PASS_MARK = 60
+
+student1.studentId = 100;
+student1.name = "Kamal";
+
+student2.studentId = 101;
+student2.name = "Kamala";

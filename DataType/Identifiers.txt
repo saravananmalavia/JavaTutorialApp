@@ -1,0 +1,12 @@
+Identifiers in Java
+
+Rules for Identifiers in Java
+There are some rules and conventions for declaring the identifiers in Java. If the identifiers are not properly declared, we may get a compile-time error. Following are some rules and conventions for declaring identifiers:
+
+A valid identifier must have characters [A-Z] or [a-z] or numbers [0-9], and underscore(_) or a dollar sign ($). for example, @javatpoint is not a valid identifier because it contains a special character which is @.
+There should not be any space in an identifier. For example, java tpoint is an invalid identifier.
+An identifier should not contain a number at the starting. For example, 123javatpoint is an invalid identifier.
+An identifier should be of length 4-15 letters only. However, there is no limit on its length. But, it is good to follow the standard conventions.
+We can't use the Java reserved keywords as an identifier such as int, float, double, char, etc. For example, int double is an invalid identifier in Java.
+An identifier should not be any query language keywords such as SELECT, FROM, COUNT, DELETE, etc.
+

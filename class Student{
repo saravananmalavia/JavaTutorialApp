@@ -1,0 +1,55 @@
+class Student{
+	
+int marks[] = new int[3];
+int total;
+double average;
+
+public Student(int t,double a){
+	 total = t
+	 avergae = a;
+	
+}
+
+
+
+public void findTotal(){
+
+for(int mark : marks){
+	this.total += this.mark;
+}
+
+public void findAverage(){
+this.findTotal()
+average =   total / marks.length;
+
+avg = 25.0
+int avg = (int) 25.5	
+
+}
+
+public void display(){
+	sop(this.total);
+	sop(this.average);
+}
+
+psvm{
+	Student s1 = new Student();
+	s1.read();
+	//s1.findTotal();
+	s1.findAverage();
+	s1.display();
+
+	Student s2 = new Student();
+	s2.read();
+	//s2.findTotal();
+	s2.findAverage();
+	s2.display();	
+
+
+}
+
+
+
+
+
+}

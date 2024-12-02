@@ -1,0 +1,12 @@
+oops - Object oriented programing concepts.
+
+Programing languages
+______________________
+
+2 Types
+-----------
+1. Procedure Orientered
+2. Object Oriented
+
+
+

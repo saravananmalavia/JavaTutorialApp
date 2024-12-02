@@ -1,0 +1,29 @@
+
+
+abstract class Logger{
+	public abstract void doLog(String msg);
+	public abstract void sortLog();
+
+}
+
+
+
+class ConsoleLog extends Logger{
+	public void doLog(String msg){
+		// display the message in the console
+	}
+}
+class FileLog extends Logger{
+	public void doLog(String msg){
+		// write  the message in to the file
+	}
+	
+}
+class DBLog extends Logger{
+	public void doLog(String msg){
+		// insert the message in to the data base
+	}
+	
+
+
+

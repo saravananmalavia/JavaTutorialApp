@@ -1,0 +1,56 @@
+
+There are 3 type of loops
+	
+	-- repeated operation
+
+1. for
+2. while
+3. do while
+
+simple for
+
+	for(){
+
+	}
+
+Netsed for
+
+	for(;;){
+
+		for(){
+
+		}
+
+	}
+
+Nested While
+
+	while(condion){
+		while(condition){
+		
+		}
+	}
+
+Netsted do while
+
+	do{
+			do{
+	
+
+			}while(condition);
+
+	}while(condition);
+
+break statement in for
+
+continue statement in for
+
+
+
+
+
+
+
+
+
+

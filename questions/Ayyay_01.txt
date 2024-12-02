@@ -1,0 +1,47 @@
+Here’s a list of **30 Java programming questions** focused on arrays. These questions are categorized into beginner, intermediate, and advanced levels, allowing learners to develop a solid understanding of array manipulation and related concepts.
+
+---
+
+### **Beginner Level**
+1. Write a program to **input and print all elements** of an array.
+2. Write a program to find the **sum** and **average** of elements in an array.
+3. Write a program to find the **maximum** and **minimum** element in an array.
+4. Write a program to **count the occurrences** of a specific number in an array.
+5. Write a program to check if an array is **sorted in ascending order**.
+6. Write a program to reverse the elements of an array.
+7. Write a program to find the **second largest** element in an array.
+8. Write a program to remove duplicates from an array (without using extra space).
+9. Write a program to find the **frequency of each element** in an array.
+10. Write a program to merge two arrays into a single array.
+
+---
+
+### **Intermediate Level**
+11. Write a program to check if two arrays are **equal**.
+12. Write a program to find the **intersection** of two arrays.
+13. Write a program to find the **union** of two arrays.
+14. Write a program to rotate an array to the **left** or **right** by a given number of positions.
+15. Write a program to find the **subarray with the maximum sum** (Kadane’s Algorithm).
+16. Write a program to find the **missing number** in an array of size N where elements range from 1 to N.
+17. Write a program to sort an array using the **Bubble Sort** algorithm.
+18. Write a program to **shift all zeros to the end** of an array without changing the order of non-zero elements.
+19. Write a program to find the **pair of elements with a given sum** in an array.
+20. Write a program to find all the **leaders** in an array (An element is a leader if it is greater than all elements to its right).
+
+---
+
+### **Advanced Level**
+21. Write a program to find the **longest increasing subsequence** in an array.
+22. Write a program to find the **smallest subarray** with a sum greater than or equal to a given value.
+23. Write a program to find the **majority element** in an array (An element that appears more than \(N/2\) times).
+24. Write a program to **rearrange an array in alternating positive and negative elements**.
+25. Write a program to find the **maximum product subarray**.
+26. Write a program to find all **triplets** in an array that sum up to a given value.
+27. Write a program to find the **longest contiguous subarray** with an equal number of 0s and 1s.
+28. Write a program to sort an array of 0s, 1s, and 2s without using extra space (Dutch National Flag Problem).
+29. Write a program to find the **minimum difference** between any two elements in an array.
+30. Write a program to **spirally traverse a 2D array**.
+
+---
+
+These questions cover basic operations, searching and sorting algorithms, and advanced problem-solving concepts related to arrays. Let me know if you'd like solutions or explanations for any of these problems!

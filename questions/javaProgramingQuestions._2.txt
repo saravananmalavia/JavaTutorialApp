@@ -1,0 +1,75 @@
+
+---
+
+### **Mathematical and Logical Problems**
+1. Write a program to find the **sum of the digits** of a number until it becomes a single-digit number (e.g., 987 → 9 + 8 + 7 = 24 → 2 + 4 = 6).
+2. Write a program to calculate the **power of a number** without using `Math.pow()` (e.g., \(a^b\)).
+3. Write a program to check if a number is a **perfect number** (e.g., 28 is perfect because \(1 + 2 + 4 + 7 + 14 = 28\)).
+4. Write a program to check if a number is a **Harshad number** (a number divisible by the sum of its digits, e.g., 18 → \(1+8=9\), \(18 \div 9 = 2\)).
+5. Write a program to print the **first N prime numbers**.
+6. Write a program to check if two numbers are **amicable numbers** (e.g., 220 and 284 have sum of divisors equal to each other).
+7. Write a program to find the **LCM** of two numbers.
+8. Write a program to print the **n-th term of the Fibonacci sequence** using recursion.
+
+---
+
+### **Pattern-Based Challenges**
+9. Print a pyramid of numbers:
+    ```
+       1
+      121
+     12321
+    ```
+10. Print the following pattern for N rows:
+    ```
+    1
+    1 2
+    1 2 3
+    ```
+11. Print a diamond shape using `*`:
+    ```
+       *
+      ***
+     *****
+      ***
+       *
+    ```
+12. Print the Floyd’s Triangle for N rows:
+    ```
+    1
+    2 3
+    4 5 6
+    ```
+
+---
+
+### **Number Manipulation Problems**
+13. Write a program to generate all factors of a number.
+14. Write a program to find the **largest digit** in a number.
+15. Write a program to find the **smallest digit** in a number.
+16. Write a program to generate the **N-th prime number**.
+17. Write a program to calculate the **sum of all prime digits** in a given number.
+18. Write a program to find the **product of digits** of a number.
+
+---
+
+### **String-Based Logical Problems**
+19. Write a program to reverse a string without using string methods (e.g., `Hello → olleH`).
+20. Write a program to check if a given string is a **palindrome**.
+21. Write a program to count the number of **vowels** and **consonants** in a string.
+22. Write a program to count the occurrence of a given character in a string.
+
+---
+
+### **Advanced Iterative Problems**
+23. Write a program to generate the **Collatz sequence** for a given number:
+    - Start with \(n\).
+    - If \(n\) is even, \(n = n/2\).
+    - If \(n\) is odd, \(n = 3n + 1\).
+    - Repeat until \(n = 1\).
+24. Write a program to print numbers in words (e.g., 123 → One Two Three).
+25. Write a program to simulate a **basic calculator** that supports addition, subtraction, multiplication, and division using a switch statement.
+
+---
+
+These questions push beginners to combine their understanding of **loops**, **conditional statements**, **recursion**, and **basic math** in creative ways. Let me know if you want any of these problems explained or solved!

@@ -1,0 +1,75 @@
+Here’s a list of **25 programming questions** focused on **2D arrays** in Java. These cover fundamental operations, logic-based problems, and advanced manipulations.
+
+---
+
+### **Beginner Level: Basic 2D Array Operations**
+1. Write a program to **input and print a 2D array**.
+2. Write a program to find the **sum of all elements** in a 2D array.
+3. Write a program to find the **maximum** and **minimum** element in a 2D array.
+4. Write a program to find the **row-wise** and **column-wise sum** in a 2D array.
+5. Write a program to **transpose a 2D array** (swap rows and columns).
+6. Write a program to check if a 2D array is a **square matrix** (same number of rows and columns).
+7. Write a program to check if a 2D array is a **symmetric matrix** (transpose equals the original matrix).
+8. Write a program to input a 2D array and search for a specific element.
+9. Write a program to count the number of **positive, negative, and zero elements** in a 2D array.
+10. Write a program to find the **diagonal elements** of a square 2D array.
+
+---
+
+### **Intermediate Level: Logical Manipulations**
+11. Write a program to **rotate a 2D array 90 degrees clockwise**.
+12. Write a program to check if a 2D array is an **identity matrix** (diagonal elements are 1, all others are 0).
+13. Write a program to calculate the **sum of diagonal elements** in a square matrix.
+14. Write a program to **multiply two matrices**.
+15. Write a program to check if a 2D array is a **magic square** (all rows, columns, and diagonals sum to the same value).
+16. Write a program to find the **saddle point** in a 2D array (element that is the minimum in its row and maximum in its column).
+17. Write a program to find the **row with the maximum sum** in a 2D array.
+18. Write a program to check if a 2D array is a **lower triangular matrix** (all elements above the diagonal are 0).
+19. Write a program to check if a 2D array is an **upper triangular matrix** (all elements below the diagonal are 0).
+20. Write a program to flatten a 2D array into a **1D array**.
+
+---
+
+### **Advanced Level: Complex Problems**
+21. Write a program to perform **spiral traversal** of a 2D array.
+22. Write a program to find the **shortest path in a binary matrix** (0s and 1s) using Breadth-First Search.
+23. Write a program to **sort each row** of a 2D array in ascending order.
+24. Write a program to find the **boundary elements** of a 2D array.
+25. Write a program to find the **maximum element in each row and each column**.
+
+---
+
+### Example Problem: **Transpose of a Matrix**
+```java
+public class TransposeMatrix {
+    public static void main(String[] args) {
+        int[][] matrix = {
+            {1, 2, 3},
+            {4, 5, 6},
+            {7, 8, 9}
+        };
+        
+        int rows = matrix.length;
+        int cols = matrix[0].length;
+        int[][] transpose = new int[cols][rows];
+        
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                transpose[j][i] = matrix[i][j];
+            }
+        }
+        
+        System.out.println("Transpose of the matrix:");
+        for (int[] row : transpose) {
+            for (int val : row) {
+                System.out.print(val + " ");
+            }
+            System.out.println();
+        }
+    }
+}
+```
+
+---
+
+These problems cover core 2D array operations and introduce matrix-related challenges, enhancing understanding of multidimensional data structures in Java. Let me know if you'd like any specific question explained or solved!

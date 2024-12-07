@@ -11,7 +11,7 @@ public class GroupByExample {
         Map<Integer, List<String>> groupedByLength = words.stream()
                                                           .collect(Collectors.groupingBy(String::length));
 
-        System.out.println(groupedByLength);
+       // System.out.println(groupedByLength.stream().filter());
     }
 }
 

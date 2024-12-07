@@ -39,7 +39,7 @@ public class WithoutLambda {
 
         */
 
-    	/*
+    	
         Calculator addition = new Calculator() {
             @Override
             public int operate(int a, int b) {
@@ -49,8 +49,9 @@ public class WithoutLambda {
 
         System.out.println("Sum: " + addition.operate(5, 3)); // Output: Sum: 8
 
-        */
+        
 
+/*
         Predicate<Integer> isEven = new Predicate<Integer>() {
             @Override
             public boolean test(Integer number) {
@@ -60,7 +61,7 @@ public class WithoutLambda {
 
         System.out.println(isEven.test(4)); // Output: true
     }
-
+*/
 
 }
 

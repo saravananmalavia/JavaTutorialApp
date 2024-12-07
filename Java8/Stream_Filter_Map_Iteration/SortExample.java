@@ -3,7 +3,7 @@ import java.util.List;
 
 public class SortExample {
     public static void main(String[] args) {
-        List<String> words = Arrays.asList("apple", "banana", "cherry", "date");
+        List<String> words = Arrays.asList("mango","pinapple","apple", "banana", "cherry", "date");
 
         // Sort words in ascending order
         words.stream()

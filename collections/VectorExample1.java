@@ -2,6 +2,7 @@ import java.util.*;
 
 class VectorExample1 {
 	public static void main(String args[]){
+
 		Vector vector1 = new Vector();
 
 		vector1.add(10);
@@ -20,21 +21,21 @@ class VectorExample1 {
 
 		System.out.println(sample);
 
-		/*System.out.println(vector1.get(4));
+		System.out.println(vector1.get(6));
 
 		 for (int i = 0; i < vector1.size(); i++)
-             System.out.println(vector1.get(i)); */
-        /*
+             System.out.println(vector1.get(i)); 	
+        
         for(Object obj : vector1){
         	System.out.println(obj);
         }
-		*/
+		
 
         //Traversing collection through Iterator  
-		/*Iterator itr = vector1.iterator();  
+		Iterator itr = vector1.iterator();  
 		while(itr.hasNext()){  
 			System.out.println(itr.next());  
-		}  */
+		}  
 	}
 }
 class Product{
@@ -48,6 +49,7 @@ class Product{
 		price = p;
 	}	
 	// toString() - Object class method 
+	
 	public String toString(){
 			
 			String output = "[" + id + "," + name + "," + price + "]";

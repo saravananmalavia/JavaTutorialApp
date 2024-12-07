@@ -1,5 +1,7 @@
-import java.util.*;  
+import java.util.*; 
+
 class ArrayListDemo{  
+	
 	public static void main(String args[]){  
 		ArrayList<String> list = new ArrayList<String>();//Creating arraylist  
 		ArrayList list1 = new ArrayList();
